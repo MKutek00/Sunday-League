@@ -1,0 +1,55 @@
+section {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  align-items: baseline;
+  justify-items: center;
+  column-gap: 100px;
+}
+
+.lower_leauges > ul {
+  height: auto;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  padding: 1em 1em 0 1em;
+  margin: 1em;
+}
+
+.lower_leauges > ul > li {
+  letter-spacing: 0px;
+  color: #000903;
+  text-align: left;
+  font: normal normal bold 25px/24px Arial;
+  line-height: 11px;
+  font-size: 1em;
+}
+
+.lower_leauges > ul > li > i {
+  font-size: 2em;
+  color: black;
+  margin-right: 10px;
+}
+@media only screen and (max-device-width: 450px) {
+
+  .lower_leauges{
+    grid-template-columns: 1fr;
+  }
+  .lower_leauges > ul > li{
+    line-height: 3em;
+  }
+  .classBlist{
+    font-size: 36px;
+  }
+  .lowerleaugstopic {
+    width: 90%;
+    height: 40%;
+    font-size: 36px;
+  }
+  .lowerleaugeslogo{
+    width: 60%;
+  }
+
+
+
+}

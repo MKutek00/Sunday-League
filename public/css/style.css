@@ -1,0 +1,762 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  margin: 0;
+}
+button{
+  cursor: pointer;
+}
+nav {
+  width: 20vw;
+  height: 100%;
+  background: transparent linear-gradient(180deg, #0e7e33 0%, #073f1a 100%) 0%
+    0% no-repeat padding-box;
+  border: 1px solid #707070;
+}
+
+main {
+  width: 80vw;
+  background: #ebebeb 0% 0% no-repeat padding-box;
+  overflow: auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+nav > img {
+  width: 80%;
+  margin: 2em auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li i {
+  font-size: 1.5em;
+}
+
+.button {
+  border: 2px solid #ffffff;
+  border-radius: 2em;
+  margin-left: 1em;
+  text-align: center;
+  letter-spacing: 0.72px;
+  color: #ffffff;
+  width: 60%;
+}
+
+li {
+  text-align: left;
+  color: white;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+ul {
+  list-style-type: none;
+  font: normal normal normal 17px/24px Segoe UI;
+  letter-spacing: 0.72px;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  margin: 1em 0em 1em 1em;
+}
+
+.nav_ul > ul > li:last-child {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} 
+
+main {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/*   ZNAJDŹ MECZ    */
+.fm-main {
+  justify-content: center;
+}
+.find-match-logo {
+  width: 80%;
+  text-align: center;
+}
+.fm-logo {
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.location {
+  width: 80%;
+  height: 20%;
+  /*margin-top: 2em;*/
+  text-align: center;
+}
+
+.first-line {
+  height: 40%;
+
+  display: flex;
+  flex-direction: row;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: inset 7px 7px 7px #00000029, 7px 7px 7px #00000029;
+  border: 5px solid #707070;
+  border-radius: 2em;
+  margin-bottom: 1em;
+}
+
+#Icon1 {
+  height: 70%;
+  width: 5%;
+  text-align: center;
+  background-color: transparent;
+  margin: auto 0.2em auto 0.5em;
+  font-size: 2.5em;
+  color: gray;
+}
+
+.location-input {
+  height: 70%;
+  width: 85%;
+  text-align: left;
+  border: 0;
+  margin: auto 0 auto 0;
+  font: normal normal normal 25px/24px Arial;
+  letter-spacing: 0px;
+  color: #b6afaf;
+}
+
+.zakres-input {
+  height: 70%;
+  width: 90%;
+  text-align: center;
+  border: 0;
+  margin: 0.5em;
+  background-color: transparent;
+  font: normal normal normal 15px/24px Arial;
+  letter-spacing: 0px;
+  color: #b6afaf;
+}
+
+
+.vertical-line {
+  border: 3px solid #707070;
+  background-color: #707070;
+  margin: 0;
+  height: auto;
+}
+
+.gps-button {
+  width: 10%;
+  height: 70%;
+  margin: auto 0.5em auto 0;
+  border: 0;
+
+  background-color: transparent;
+}
+#Icon2 {
+  height: 100%;
+  width: 100%;
+  font-size: 3em;
+  color: gray;
+}
+
+.second-line {
+  height: 30%;
+  width: 25%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: inset 7px 7px 7px #00000029, 7px 7px 7px #00000029;
+  border: 5px solid #707070;
+  border-radius: 2em;
+  margin-top: 1em;
+}
+
+
+
+.fm-button {
+  width: 80%;
+  background: #2e704d 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 2em;
+  margin: 1em;
+  margin-top: 10px;
+  padding: 0.5em;
+
+  text-align: center;
+  font: normal normal bold 30px/24px Arial;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+/*  KONIEC ZNAJDŹ MECZ  */
+
+/*  NEWS  */
+.news-logo {
+  width: 30%;
+  height: 30%;
+  margin: 0;
+}
+
+/* LOWER LEAUGES */
+.lowerleaugeslogo {
+  margin-top: 2em;
+}
+
+.lowerleaugstopic {
+  width: 70%;
+  height: 80px;
+  display: flex;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  flex-shrink: 0;
+
+  align-items: center;
+  justify-content: center;
+  font: normal normal bold 30px/24px Arial;
+  letter-spacing: 0px;
+  color: #000903;
+}
+
+/*  LEAUGE TABLE  */
+.selection-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  font: normal normal bold 35px/10px Arial;
+  letter-spacing: 0px;
+  color: #000000;
+  margin: 30px 15px;
+}
+
+.selection {
+  width: 40%;
+  height: 50px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  font-size: 1em;
+  text-align: center;
+}
+.select {
+  margin: 10px;
+  padding: 10px;
+}
+
+.ptable table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.ptable {
+  width: 90%;
+  border: 1px solid #707070;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font-family: Fjalla One;
+  margin: 15px 5px;
+  padding: 0;
+}
+
+.headin {
+  text-decoration: none;
+  margin: 10px;
+  display: block;
+  text-align: center;
+  font: normal normal bold 35px/10px Arial;
+  letter-spacing: 0px;
+  color: #000000;
+  margin: 30px 10px;
+  padding: 10px;
+}
+
+tbody {
+  padding: 10px;
+}
+
+.definition {
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+}
+
+.definition th,
+.short-definition th {
+  padding: 10px;
+  letter-spacing: 0px;
+  color: #9b9b9b;
+}
+
+.promotion td,
+.normal td,
+.decrease td {
+  padding: 10px;
+  letter-spacing: 0px;
+}
+
+.promotion td {
+  color: #77ff21;
+  text-align: center;
+}
+.promotion:hover {
+  background-color: #02ff45;
+}
+.promotion:hover td {
+  color: #000000;
+}
+
+.normal td {
+  color: #828282;
+  text-align: center;
+}
+.normal:hover {
+  background-color: #f2f2f2;
+}
+.normal:hover td {
+  color: #000000;
+}
+.decrease td {
+  color: #ff0000;
+  text-align: center;
+
+}
+.decrease:hover {
+  background-color: #ff0000;
+}
+.decrease:hover td {
+  color: #000000;
+}
+
+table .normal,
+table .decrease,
+table .promotion {
+  border-top: 3px solid #bab5b5;
+}
+
+/*  GAMES NEAR YOU  */
+.gny-logo {
+  width: 50%;
+  margin: 10px;
+}
+
+/*  LOGIN   */
+
+.login_body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: #ebebeb 0% 0% no-repeat padding-box;
+}
+
+.login_logo{
+  text-align: center;
+  width: 80%;
+  margin: 25px;
+}
+
+form.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 40vh;
+  background: #FFFFFFE0 0% 0% no-repeat padding-box;
+  box-shadow: 0px 6px 6px #00000029;
+  border: 1px solid #707070;
+  border-radius: 33px;
+}
+
+.login_button {
+  background: transparent linear-gradient(180deg, #0e7e33 0%, #073f1a 100%) 0%
+    0% no-repeat padding-box;
+  border: 1px solid #707070;  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 19px;
+  width: 50%;
+  border: none;
+  color: white;
+  margin: 1em;
+  line-height: 2.5em;
+}
+
+.login_input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 1em;
+  margin: 1em;
+  width: 50%;
+}
+
+.no-valid {
+  border-radius: 1em;
+  box-shadow: 0 0 1em red;
+  outline: none;
+}
+
+.leftpanel{
+  border: 2px solid #ffffff;
+  border-radius: 2em;
+  margin-left: 1em;
+  text-align: center;
+  letter-spacing: 0.72px;
+  color: #ffffff;
+  width: 60%;
+
+  background: transparent;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 2em;
+
+  font-size: 1em;
+}
+
+.register{
+  width: 40%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register > input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 1em;
+  margin: 1em;
+  width: 50%;
+}
+
+.register > button{
+  width: 40%;
+  background: #2e704d 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 2em;
+  margin: 1em;
+  margin-top: 10px;
+  padding: 0.5em;
+  text-align: center;
+  font: normal normal bold 20px/24px Arial;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.getLeague,
+.getLocation,
+.getData{
+  margin:0;
+  overflow-wrap: break-word;
+  line-height: 1em;
+}
+#logout{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.Article{
+  width: 90%;
+  padding: 20px;
+  margin: 10px 10px 10px 10px;
+}
+.article_title{
+  width: 65%;
+  margin: inherit;
+  font-size: 40px;
+  font-family: Arial;
+}
+.article_shortDescription{
+  margin: 5vh 10vw 2vh 10px;
+  font-family: OpenSans, sans-serif;
+  font-size: 30px;
+  line-height: 1em;
+}
+.article_img{
+  margin: inherit;
+  width: 70%;
+  height: 55vh;
+
+}
+.article_text{
+  margin: 5vh 10vw 10px 10px;
+  font-family: OpenSans, sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+}
+.article_ads{
+  margin: inherit;
+  height: 40vh;
+  width: 50vh;
+  background-color: black;
+}
+.article_span{
+  font-size: 30px;
+  font-family: Arial;
+  width: 80%;
+  border-bottom: 5px solid #000;
+  margin: 0 5vw 20px 0;
+}
+.article_comments{
+  width: 90%;
+  padding: 20px;
+}
+.article_comm{
+  position: relative;
+  width: 85%;
+  height: 135px;
+  margin: 20px 45px;
+  background-color: #fff;
+  border: 2px solid #9b9b9b;
+}
+.comm_img{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 6%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  border: 3px solid #000;
+}
+.comm_username{
+  position: absolute;
+  font-size: 20px;
+  font-family: Arial;
+  top: 8%;
+  left: 18%;
+  color: orange;
+}
+.article_comm form{
+  font-size: 20px;
+  font-family: Arial;
+  margin-left: 18%;
+  margin-top: 1%;
+  color: orange;
+}
+.comm_text{
+  position: absolute;
+  top: 27%;
+  left: 18%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  height: 50%;
+}
+.comm_date{
+  position: absolute;
+  right: 1%;
+  top: 5%;
+}
+.add_commButton {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: orange;
+}
+.h_users{
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #000000;
+  padding: 15px 0;
+}
+.all_users_table{
+  font-size: 18px;
+  font-weight: normal;
+  width: 80%;
+  white-space: nowrap;
+  background-color: white;
+  border-collapse: collapse;
+}
+.all_users_table td, .all_users_table th{
+  text-align: center;
+  padding: 8px;
+}
+.all_users_table td{
+  border-right: 5px solid #f8f8f8;
+  font-size: 16px;
+}
+.all_users_table th{
+  color: #ffffff;
+  background: #0e7e33;
+}
+.all_users_table tr:nth-child(even){
+  background: #F8F8F8;
+}
+.all_users_table td:nth-last-child(2){
+  background-color: red;
+  border-color: red;
+  cursor: pointer;
+}
+.all_users_table td:nth-last-child(3) {
+  background-color: green;
+  border-color: green;
+  cursor: pointer;
+}
+.all_users_table td:nth-last-child(1) {
+  cursor: pointer;
+}
+
+.userNameSpan{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: Arial, serif;
+}
+
+@media only screen and (max-device-width: 450px) {
+  form.login {
+    width: 80%;
+    height: 45%;
+  }
+
+  .login_logo > img {
+    width: 80%;
+  }
+
+  .login_input {
+    height: 50px;
+  }
+
+  * {
+    font-size: 36px;
+  }
+
+  .login_button {
+
+  }
+
+  form.register {
+    width: 80%;
+    height: 70%;
+  }
+
+  .register > button {
+    width: 70%;
+    height: 90px;
+    font-size: 36px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    flex-direction: row;
+    height: 20vw;
+    width: 100%;
+  }
+
+  nav > img {
+    display: none;
+  }
+
+  nav > ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fa-instagram:before,
+  .fa-facebook-square:before,
+  .fa-twitter:before,
+  .fa-plus:before,
+  .fa-table:before,
+  .fa-futbol:before,
+  .fa-home:before {
+    display: none;
+  }
+
+  .leftpanel {
+    width: 80%;
+    border-radius: 30px;
+    margin: 0;
+  }
+
+  nav > ul > li {
+    margin: 0;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .news-logo {
+    width: 70%;
+    height: 10%;
+    margin: 1em 0 0;
+  }
+
+  .news {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  div.small {
+    height: 500px;
+  }
+
+  div.small > img {
+    height: 60%;
+  }
+
+  div.small > div > h2 {
+    font-size: 50px;
+  }
+
+  div.small > div > p {
+    font-size: 36px;
+  }
+
+  .definition {
+    display: none;
+  }
+
+  .td {
+    font-size: 30px;
+  }
+
+  .fm_main {
+    height: 100%;
+  }
+
+  .fm-logo {
+    width: 100%;
+  }
+
+  .fm-button {
+    height: 40%;
+    font-size: 36px;
+    width: 90%;
+  }
+  .fa-search-location:before{
+    display: none;
+  }
+  .vertical-line{
+      display: none;
+  }
+  .location-input{
+    font-size: 36px;
+  }
+.zakres-input{
+  font-size: 36px;
+}
+}

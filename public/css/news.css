@@ -1,0 +1,95 @@
+section {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  padding: 2em;
+}
+
+
+.big {
+  border: 1px solid gray;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.big > img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.big > div {
+  width: 50%;
+  height: 100%;
+  margin: 1em;
+  color: #000903;
+  letter-spacing: 0px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.big > div > h2 {
+  /*font: normal normal bold 35px/30px Arial;*/
+  font-size: 10px;
+  /*line-height: 20px;*/
+  font-family: Arial, serif;
+  height: 40%;
+  margin: 5px 0 0 10px;
+}
+
+.big > div > p {
+  height: 60%;
+  font: normal normal normal 20px/24px Arial;
+  margin: 5px 0 0 10px;
+  overflow: hidden;
+
+}
+
+.small {
+  border: 1px solid gray;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.small > img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.small > div {
+  height: 50%;
+  margin: 10px 10px 2px 10px;
+  color: #000903;
+  letter-spacing: 0px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.small > div > h2 {
+  /*font: normal normal bold 30px/30px Arial;*/
+  font-size: 25px;
+  /*line-height: 20px;*/
+  font-family: Arial, serif;
+  height: 40%;
+  margin: 5px 0 0 10px;
+}
+
+.small > div > p {
+  height: 49%;
+  /*font: normal normal normal 20px/24px Arial;*/
+  font-size: 19px;
+  /*line-height: 20px;*/
+  font-family: Arial, serif;
+  margin: 5px 0 0 10px;
+  width: 100%;
+  overflow: hidden;
+}
